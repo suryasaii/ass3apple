@@ -28,6 +28,8 @@ body {
  
  .topnav a:hover {
     color: lightgrey;
+    opacity: 0.6;
+    transition: 1s;
  }
  
  .topnav a.active {
