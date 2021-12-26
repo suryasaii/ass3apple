@@ -5,28 +5,28 @@ body {
  }
 .topnav {
      background-color: #333;
-     height: 45px;
-     padding-top: 20px;
      text-align: center;
  }
  .background{  
-    padding: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     background: #f1f1f1;
 
  }
- .topnav a{
-    float:center;
+ .topnav a,i{
+    display: flexbox;
     color: whitesmoke;
-    text-align: center;
-    padding:  8px;
+    position: relative;
+    padding: 10px;
+    justify-content: center;
     text-decoration: none;
-    font-size: 12px;
-    width: 3.58333em;
-    padding-left: 30px ;
-    
+    font-size: small;
+   
  }
  
- .topnav a:hover {
+ .topnav a:hover, i:hover {
     color: lightgrey;
     opacity: 0.6;
     transition: 1s;
@@ -35,10 +35,21 @@ body {
  .topnav a.active {
     color: white;
  }
- h2,p,div {
+
+ p{
      text-align: left;
      padding-left: 100px;
      padding-right: 100px;
+     font-weight: lighter;
+     font-size: smaller;
+   
+}
+h2{
+   text-align: left;
+   padding-left: 100px;
+   padding-right: 100px;
+   font-weight: solid bolder;
+   font-size: medium;
 }
  .header {
      padding: 30px;
